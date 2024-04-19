@@ -1,0 +1,112 @@
+---
+title: <span style="color:#034a94"> **Actividad 1**</span>
+output:
+html_document:
+css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+library(summarytools)
+
+
+c1 ="#FF7F00"  # naranja - color primario 
+c2 ="#034A94"  # azul oscuro - color secundario
+c3 ="#0EB0C6"  # azul claro - color terciario
+c4 ="#686868"  # gris - color texto
+```
+
+</br></br>
+
+
+# <span style="color:#034a94"> **Caso : Análisis del mercado inmobiliario en Cali**</span>
+
+</br></br>
+
+```{r, echo=FALSE, out.width="80%", fig.align = "center"}
+knitr::include_graphics("img/cali.png")
+```
+
+<center>
+<sub> Tomada de : https://pixabay.com/photos/city-church-architecture-cali-704322/ </sub>
+</center>
+
+<br/><br/>
+
+La empresa **B&C** (Bines y Casas) es una agencia de bienes raíces que opera en la ciudad de Cali, Colombia. La empresa fue fundada por Sandra Milena hace 10 años y actualmente cuenta con ocho agentes de bienes raíces.
+
+</br>
+
+El mercado de bienes raíces en Cali ha crecido significativamente en los últimos años, impulsado por el crecimiento de la población, la inversión extranjera directa y el desarrollo de nuevos proyectos inmobiliarios. En 2022, las ventas del sector en Cali llegaron a $6700 millones y en 2023 a $6100 mil millones. Se espera que este sector continue creciendo durante los próximos años, permitiendo un desarrollo dinámico en la economía regional.
+
+</br>
+
+La empresa **B&C** ha recogido información sobre viviendas que incluye información sobre el precio, la ubicación, las características y la venta de viviendas en Cali. Esta base de datos puede ser utilizada para realizar un informe estadístico que sería de gran interés para la empresa.
+
+</br>
+
+El informe estadístico podría proporcionar información sobre los siguientes temas:
+
+* Precio de las viviendas en diferentes zonas de Cali.
+* Tipo de viviendas más ofertadas en Cali.
+* Características más relevantes de la oferta de vivienda en Cali.
+
+</br>
+
+Esta información sería útil para la empresa **B&C** para tomar decisiones sobre su negocio, tales como:
+
+* Definir su nicho de mercado.
+* Desarrollar estrategias de marketing.
+* Establecer precios de venta.
+* Ofrecer servicios personalizados a sus clientes.
+
+</br>
+
+La empresa solicita un **análisis descriptivo** de los datos, para identificar las tendencias y patrones en los datos. 
+
+</br>
+
+El informe debe incluir los siguientes elementos:
+
+* Introducción
+* Objetivos
+* Métodos
+* Resultados
+* Discusión
+* Conclusiones
+* Anexos
+
+El informe debe ser redactado en un lenguaje claro y conciso, y debe estar dirigido a los directivos de la empresa **B&C**.
+
+</br></br>
+
+## <span style="color:#034a94"> **Solicitud de entrega del informe**</span>
+
+* Se debe entregar enlace de la plataforma RPuls que contenga el documento final, utilizando el formato Markdown. 
+
+* El informe debe estar organizado en un único documento que contenga la introducción, los objetivos, los métodos, los resultados, la discusión y las conclusiones. Cada sección del informe debe estar numerada y debe tener un encabezado descriptivo.
+
+
+</br></br>
+
+## <span style="color:#034a94"> **Entregable**</span> 
+
+Enlace del informe en RPubs, copiado en Actividad1 del curso en Bs
+
+
+
+</br></br>
+
+## <span style="color:#034a94"> **Datos**</span> 
+
+```{r, warning=FALSE, message=FALSE}
+# install.packages("devtools") # solo una vez
+# devtools::install_github("dgonxalex80/paqueteMETODOS")
+library(paqueteMETODOS)
+data(vivienda_faltantes)
+head(vivienda_faltantes)
+```
+
+</br></br>
+
+
