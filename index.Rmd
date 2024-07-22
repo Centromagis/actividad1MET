@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE, comment = NA)
 library(summarytools)
 
 
+
 c1 ="#FF7F00"  # naranja - color primario 
 c2 ="#034A94"  # azul oscuro - color secundario
 c3 ="#0EB0C6"  # azul claro - color terciario
@@ -24,7 +25,7 @@ c4 ="#686868"  # gris - color texto
 </br></br>
 
 ```{r, echo=FALSE, out.width="80%", fig.align = "center"}
-knitr::include_graphics("img/cali.png")
+knitr::include_graphics("img/cali1.png")
 ```
 
 <center>
@@ -69,11 +70,7 @@ La empresa solicita un **análisis descriptivo** de los datos, para identificar 
 El informe debe incluir los siguientes elementos:
 
 * Introducción
-* Objetivos
-* Métodos
-* Resultados
-* Discusión
-* Conclusiones
+* Análisis descriptivo
 * Anexos
 
 El informe debe ser redactado en un lenguaje claro y conciso, y debe estar dirigido a los directivos de la empresa **B&C**.
@@ -91,7 +88,7 @@ El informe debe ser redactado en un lenguaje claro y conciso, y debe estar dirig
 
 ## <span style="color:#034a94"> **Entregable**</span> 
 
-Enlace del informe en RPubs, copiado en Actividad1 del curso en Bs
+Generar archivo Rmd y renderizar en formato pdf. El archio resultante subirlo a la plataforma Bs  Actividad1 del curso 
 
 
 
@@ -100,8 +97,8 @@ Enlace del informe en RPubs, copiado en Actividad1 del curso en Bs
 ## <span style="color:#034a94"> **Datos**</span> 
 
 ```{r, warning=FALSE, message=FALSE}
-# install.packages("devtools") # solo una vez
-# devtools::install_github("dgonxalex80/paqueteMETODOS")
+# install.packages("devtools")     # solo una vez
+# devtools::install_github("centromagis/paqueteMETODOS") #descarga paquete paqueteMETODOS
 library(paqueteMETODOS)
 data(vivienda_faltantes)
 head(vivienda_faltantes)
