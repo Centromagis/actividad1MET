@@ -79,9 +79,9 @@ El informe debe ser redactado en un lenguaje claro y conciso, y debe estar dirig
 
 ## <span style="color:#034a94"> **Solicitud de entrega del informe**</span>
 
-* Se debe entregar enlace de la plataforma RPuls que contenga el documento final, utilizando el formato Markdown. 
+* Se debe construir en formato Markdown. 
 
-* El informe debe estar organizado en un único documento que contenga la introducción, los objetivos, los métodos, los resultados, la discusión y las conclusiones. Cada sección del informe debe estar numerada y debe tener un encabezado descriptivo.
+* El informe debe estar organizado en un único documento que contenga la introducción, análisis de los resultadosn y anexos. Cada sección del informe debe estar numerada y debe tener un encabezado descriptivo.
 
 
 </br></br>
