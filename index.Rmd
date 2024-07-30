@@ -164,7 +164,7 @@ El informe debe estar redactado en formato Markdown y organizado en un único do
 * Liste todas las fuentes bibliográficas utilizadas en el informe.
 
 
-</br></br></br>
+</br></br>
 
 ## **Requisitos del Informe**
 
@@ -179,8 +179,14 @@ El informe debe estar redactado en formato Markdown y organizado en un único do
 * **Números**: Sea consistente con la notación de decimales y puntos de mil. Utilice el mismo número de cifras decimales en todo el documento.
 
 * **Interpretaciones y Análisis**: Realice afirmaciones precisas y acompáñelas con cantidades exactas. En el informe descriptivo, interprete en términos del contexto del problema. En los anexos, sea lo más técnico posible e incluya la clasificación de las variables de acuerdo con su naturaleza.
-Solicitud de entrega del informe
-Entrega y Evaluación
+
+</br></br>
+
+## **Solicitud de entrega del informe**
+
+</br>
+
+### **Entrega y Evaluación**
 
 * La actividad debe ser entregada en la plataforma asignada antes de la fecha límite.
 
@@ -191,9 +197,9 @@ Entregable
 
 ### **Generación y subida del archivo**
 
-**Generación del Archivo Rmd**: Se debe crear un archivo R Markdown (.Rmd) que contenga el contenido requerido para la actividad. 
+* **Generación del Archivo Rmd**: Se debe crear un archivo R Markdown (.Rmd) que contenga el contenido requerido para la actividad. 
 Renderización a Formato PDF: Utilizando las herramientas adecuadas, como RStudio, el archivo .Rmd debe ser renderizado en un documento PDF. Asegúrese de que el PDF resultante mantenga la integridad del contenido y la presentación adecuada de todos los elementos incluidos.
 
-**Subida del Archivo a la Plataforma Bs**: Una vez generado el PDF, este debe ser subido a la plataforma Bs bajo la sección correspondiente a la "Actividad1" del curso. Es fundamental confirmar que la subida se haya realizado correctamente y que el archivo esté accesible para su revisión por el profesor.
+* **Subida del Archivo a la Plataforma Bs**: Una vez generado el PDF, este debe ser subido a la plataforma Bs bajo la sección correspondiente a la "Actividad1" del curso. Es fundamental confirmar que la subida se haya realizado correctamente y que el archivo esté accesible para su revisión por el profesor.
 
 
