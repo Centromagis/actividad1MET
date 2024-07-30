@@ -191,9 +191,12 @@ El informe debe estar redactado en formato Markdown y organizado en un único do
 * La actividad debe ser entregada en la plataforma asignada antes de la fecha límite.
 
 * La evaluación se basará en la claridad del análisis, la precisión de las interpretaciones, la calidad de la presentación del informe, el formato utilizado para su entrega y el cumplimiento de los requerimientos del informe.
-Entregable
 
 </br></br>
+
+# **Entregable**
+
+</br>
 
 ### **Generación y subida del archivo**
 
