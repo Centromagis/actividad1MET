@@ -20,7 +20,8 @@ c4 ="#686868"  # gris - color texto
 </br></br>
 
 
-# <span style="color:#034a94"> **Caso : Análisis del mercado inmobiliario en Cali**</span>
+# <span style="color:#034a94"> **Caso : **</span>
+# <span style="color:#034a94">**Análisis del mercado inmobiliario en Cali**</span>
 
 </br></br>
 
@@ -67,28 +68,28 @@ La empresa solicita un **análisis descriptivo** de los datos, para identificar 
 
 </br>
 
-El informe debe incluir los siguientes elementos:
+<!-- El informe debe incluir los siguientes elementos: -->
 
-* Introducción
-* Análisis descriptivo
-* Anexos
+<!-- * Introducción -->
+<!-- * Análisis descriptivo -->
+<!-- * Anexos -->
 
-El informe debe ser redactado en un lenguaje claro y conciso, y debe estar dirigido a los directivos de la empresa **B&C**.
+<!-- El informe debe ser redactado en un lenguaje claro y conciso, y debe estar dirigido a los directivos de la empresa **B&C**. -->
 
-</br></br>
+<!-- </br></br> -->
 
-## <span style="color:#034a94"> **Solicitud de entrega del informe**</span>
+<!-- ## <span style="color:#034a94"> **Solicitud de entrega del informe**</span> -->
 
-* Se debe construir en formato Markdown. 
+<!-- * Se debe construir en formato Markdown.  -->
 
-* El informe debe estar organizado en un único documento que contenga la introducción, análisis de los resultadosn y anexos. Cada sección del informe debe estar numerada y debe tener un encabezado descriptivo.
+<!-- * El informe debe estar organizado en un único documento que contenga la introducción, análisis de los resultadosn y anexos. Cada sección del informe debe estar numerada y debe tener un encabezado descriptivo. -->
 
 
-</br></br>
+<!-- </br></br> -->
 
-## <span style="color:#034a94"> **Entregable**</span> 
+<!-- ## <span style="color:#034a94"> **Entregable**</span>  -->
 
-Generar archivo Rmd y renderizar en formato pdf. El archio resultante subirlo a la plataforma Bs  Actividad1 del curso 
+<!-- Generar archivo Rmd y renderizar en formato pdf. El archio resultante subirlo a la plataforma Bs  Actividad1 del curso  -->
 
 
 
@@ -105,5 +106,94 @@ head(vivienda_faltantes)
 ```
 
 </br></br>
+
+## **Instrucciones para la elaboración del informe**
+
+</br>
+
+Instrucciones para la Actividad Evaluativa del Mercado Inmobiliario en Cali (2022-2023)
+
+La empresa B&C requiere un informe basado en el análisis descriptivo de los datos del mercado inmobiliario en Cali para los años 2022 y 2023. El objetivo es identificar tendencias y patrones que puedan informar decisiones estratégicas. Utilice la base de datos proporcionada para realizar esta actividad.
+
+El informe debe estar redactado en formato Markdown y organizado en un único documento con las siguientes secciones numeradas y con encabezados descriptivos:
+
+</br></br>
+
+### **Elementos del Informe**
+
+</br></br>
+
+### **1. Introducción:**
+
+* Proporcione un contexto y antecedentes del mercado inmobiliario en Cali durante 2022 y 2023.
+* Describa brevemente el propósito del informe.
+* Máximo 300 palabras.
+
+</br></br>
+
+### **2. Análisis Descriptivo:**
+
+* Tratamiento de Datos: Explique cómo se abordaron los errores, datos atípicos y datos faltantes.
+* Análisis Gráfico e Indicadores Relevantes: Incluya gráficos e indicadores que expliquen información relevante para el mercado inmobiliario. Ejemplos:
+  * Distribución de precios de viviendas en diferentes zonas de Cali.
+  * Tipos de viviendas ofertadas.
+  * Características de la oferta de vivienda.
+  * Máximo 700 palabras.
+
+</br></br>
+
+### **3. Discusión y Conclusiones:**
+
+* Resuma los principales hallazgos y proporcione recomendaciones basadas en el análisis.
+* Identifique oportunidades de negocio.
+* Máximo 400 palabras.
+
+</br></br>
+
+### **4. Anexos:**
+
+* Incluya gráficos y tablas del preprocesamiento de datos (errores, datos faltantes y atípicos).
+* Presentación de resultados y gráficos que respalden el análisis descriptivo.
+* Cada gráfico o tabla debe tener una descripción clara.
+* Máximo 2 páginas.
+
+</br></br>
+
+### **5. Referencias:**
+
+* Liste todas las fuentes bibliográficas utilizadas en el informe.
+
+
+</br></br></br>
+
+## **Requisitos del Informe**
+
+* **Escritura**: El informe debe estar redactado en un lenguaje claro y conciso, dirigido a los directivos de la empresa B&C.
+
+* **Formato**: Use el formato IEEE.
+
+* **Gráficos**: Los gráficos deben medir aproximadamente 4 cm por 4 cm. Los nombres de los ejes deben estar en español. No incluya títulos en los gráficos; la información debe ubicarse justo después de la numeración de la figura. El tamaño y grosor de las líneas deben ser suficientes para su distinción.
+
+* **Tablas**: Solo incluya información que se interprete en el documento principal.    
+
+* **Números**: Sea consistente con la notación de decimales y puntos de mil. Utilice el mismo número de cifras decimales en todo el documento.
+
+* **Interpretaciones y Análisis**: Realice afirmaciones precisas y acompáñelas con cantidades exactas. En el informe descriptivo, interprete en términos del contexto del problema. En los anexos, sea lo más técnico posible e incluya la clasificación de las variables de acuerdo con su naturaleza.
+Solicitud de entrega del informe
+Entrega y Evaluación
+
+* La actividad debe ser entregada en la plataforma asignada antes de la fecha límite.
+
+* La evaluación se basará en la claridad del análisis, la precisión de las interpretaciones, la calidad de la presentación del informe, el formato utilizado para su entrega y el cumplimiento de los requerimientos del informe.
+Entregable
+
+</br></br>
+
+### **Generación y subida del archivo**
+
+**Generación del Archivo Rmd**: Se debe crear un archivo R Markdown (.Rmd) que contenga el contenido requerido para la actividad. 
+Renderización a Formato PDF: Utilizando las herramientas adecuadas, como RStudio, el archivo .Rmd debe ser renderizado en un documento PDF. Asegúrese de que el PDF resultante mantenga la integridad del contenido y la presentación adecuada de todos los elementos incluidos.
+
+**Subida del Archivo a la Plataforma Bs**: Una vez generado el PDF, este debe ser subido a la plataforma Bs bajo la sección correspondiente a la "Actividad1" del curso. Es fundamental confirmar que la subida se haya realizado correctamente y que el archivo esté accesible para su revisión por el profesor.
 
 
