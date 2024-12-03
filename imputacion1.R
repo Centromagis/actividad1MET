@@ -1,14 +1,14 @@
 # PROCESO DE IMPUTACION 1 
-# paquete para la imputacion de datos
+# paquete para la imputación de datos
 library(mice) 
 
-# paquete del curso Metodos y Simulacion Estadistica Ms CdeD
+# paquete del curso Métodos y Simulación Estadística Ms CdeD
 library(paqueteMET)
 
 # base de datos contenida en paqueteMET
 data(vivienda_faltantes) 
 
-# grafico para visualizar los datos faltantes
+# gráfico para visualizar los datos faltantes
 md.pattern(vivienda_faltantes, rotate.names = TRUE)  
 
 

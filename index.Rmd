@@ -98,8 +98,8 @@ La empresa solicita un **análisis descriptivo** de los datos, para identificar 
 ## <span style="color:#034a94"> **Datos**</span> 
 
 ```{r, warning=FALSE, message=FALSE}
-# install.packages("devtools")     # solo una vez
-# devtools::install_github("centromagis/paqueteMETODOS") #descarga paquete paqueteMETODOS
+#install.packages("devtools")     # solo una vez
+devtools::install_github("centromagis/paqueteMETODOS") #descarga paquete paqueteMETODOS
 library(paqueteMETODOS)
 data(vivienda_faltantes)
 head(vivienda_faltantes)

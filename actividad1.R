@@ -1,4 +1,4 @@
-install.packages("learnr") # solo una vez#·install.packages("devtools") # solo una vez
+install.packages("learnr") # Solo una vez#·install.packages("devtools") # solo una vez
 devtools::install_github("dgonxalex80/paqueteMET")
 library(paqueteMET)
 data(vivienda_faltantes)
@@ -17,7 +17,7 @@ gg_miss_var(datosNA)
 library(mice)
 grafico <-md.pattern(datosNA, rotate.names = TRUE)
 
-datosSINA <- na.omit(datosNA)  # elimina todos los valores con  NA
+datosSINA <- na.omit(datosNA)  # Elimina todos los valores con  NA
 grafico <-md.pattern(datosSINA, rotate.names = TRUE)
 
 media_parquea <- mean(datosNA$parquea, na.rm = TRUE)
